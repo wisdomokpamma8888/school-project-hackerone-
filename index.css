@@ -1,0 +1,1641 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.universal
+{
+    /* border: 1px solid black; */
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+.universal .con1
+{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 35px;
+    padding-top: 8.5px;
+    position: fixed;
+    z-index: 1000;
+    background-color: #f1f1f1;
+    
+}
+.universal .con1 ul
+{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    float: right;
+    margin-right: 10px; 
+}
+.universal .con1 ul li
+{
+    margin-right: 15px;
+     font-family: 'Oswald', sans-serif;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    font-weight: bolder;
+}
+.universal .con1 ul li .a1
+{
+    text-decoration: none;
+    color: #EC1075;
+
+}
+.universal .con1 ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.universal .con1 ul li a b
+{
+    color: black;
+}
+.universal .con1 ul li a:hover
+{
+    color: #EC1075;
+}
+
+
+.universal .con2
+{
+    border: 2px solid black;
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/samuel-scalzo-xyuYk9oLA8I-unsplash.jpg);
+    background-size: cover; 
+    margin-top: 35px;
+}
+.universal .con2 .parent1
+{
+    /* border: 2px solid black; */
+    width: 101%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;  
+    z-index: 1000;
+    margin-top: -2px;
+    left: -2px;
+}
+.universal .con2 .parent1 ul
+{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+
+    
+
+    
+}
+.universal .con2 .parent1 ul li img
+{
+    width:100%;
+    margin-top: 15px;
+}
+.universal .con2 .parent1 ul li a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+
+
+}
+.universal .con2 .parent1 ul li a:hover
+{
+    color: #EC1075;
+}
+
+.universal .con2 .parent1 ul .img
+{
+    /* border: 2px solid yellow; */
+    width: 10%;
+    margin-right: 430px;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.universal .con2 .parent1 ul li
+{
+    margin-right: 25px;
+    margin-top: 15px;
+    /* border: 2px solid yellow; */
+    width: fit-content;
+}
+.universal .con2 .parent1 ul li button
+{
+    background-color: #EC1075;
+    border: none;
+    width: 130px;
+    height: 40px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+    margin-top: -20px;
+    /* letter-spacing: -2px; */
+    transition: 500ms;
+    
+}
+.universal .con2 .parent1 ul li button:hover
+{
+    background-color: #fff;
+    color: #EC1075;
+}
+.universal .con2 .parent1 ul li p b
+{
+    display: inline-block;
+    transform: rotate(-270deg);
+    font-weight: lighter;
+    
+}
+.universal .con2 .parent2
+{
+    /* border: 2px solid white; */
+    width: 100%;
+    height: 469px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.universal .con2 .parent2 .text
+{
+    /* border: 2px solid white; */
+    width: 60%;
+    height: 100%;
+    float: left;
+    margin-left: 100px;
+    padding-top: 50px;
+}
+.universal .con2 .parent2 .text h1
+{
+    font-size: 52px;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.universal .con2 .parent2 .text .h1
+{
+    margin-top: -25px;
+}
+.universal .con2 .parent2 .text p
+{
+    color: white;
+    font-size: 20px;
+    font-family:sans-serif;
+    margin-top: 10px;
+}
+.universal .con2 .parent2 .text button
+{
+    background-color: #EC1075;
+    border: none;
+    width: 120px;
+    height: 40px;
+    color:#fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: 20px;
+    /* letter-spacing: -2px; */
+    transition: 500ms;
+}
+.universal .floatingDiv
+{
+    /* border: 2px solid yellow; */
+    height: 250px;
+    position: fixed;
+    top: 135px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    opacity: 0%;
+    transition: 0.5s;
+    display: block;
+    z-index: 1000;
+}
+.universal .floatingDiv aside p
+{
+    position: relative;
+    color: #000;
+    font-family: 'Oswald',sans-serif;
+    font-size: 13px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    transform: rotate(-90deg);
+    top: -68px;
+    left: -220px;
+}
+.universal .floatingDiv b
+{
+    color: #EC1075;
+    font-family: sans-serif;
+    /* letter-spacing: 1px; */
+    font-weight: 600;
+    font-size: 17px;
+    line-height:150%;
+}
+
+
+.universal .floatingDiv .box1, .box2, .box3
+{
+    /* border: 2px solid black; */
+    width: 30%;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+.universal .floatingDiv .box1 .box1p
+{
+    font-family: 'Oswald';
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.universal .floatingDiv .box2 .box2p
+{
+    font-family: 'Oswald';
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+
+
+.universal .con3
+{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+
+}
+
+.universal .con3 .parent1
+{
+    border: 1px solid #606060;
+    border-left: none;
+    border-bottom: none;
+    width: 50%;
+    background-image: url(images/HAC_Speaker\ Social\ asset\ BG_L1R1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    font-family: monospace;
+    padding-left: 70px;
+    letter-spacing: -2px;
+  
+    
+}
+
+.universal .con3 .parent2
+{
+    border: 1px solid #606060;
+    width: 50%;
+    background-image: url(images/HAC_ISAC\ Speaker\ BC_L1R1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-right: none;
+    border-bottom: none;
+    font-size: 15px;
+    font-family: monospace;
+    padding-left: 70px;
+    letter-spacing: -2px;
+    
+}
+
+.universal .con3 .parent1 .text1
+{
+    /* border: 2px solid white; */
+    color: white;
+    width: 90%;
+    min-height: 200px;
+    padding-top: 50px;
+
+}
+.universal .con3 .parent1 .text1 h1
+{
+    font-family: 'Oswald', sans-serif;
+    font-size:27px;
+    letter-spacing: 2px;
+}
+.universal .con3 .parent1 .text1 p
+{
+    font-family: sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    line-height: 170%;
+    
+}
+.universal .con3 .parent1 .text1 button
+{
+    border: 2px solid #EC1075;
+    height: 40px;
+    width: 100px;
+    background-color: rgba(0,0,0,0.0);
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    float: right;
+    margin-left: 100px;
+    margin-top: 100px;
+    transition: 0.5s;
+    
+}
+.universal .con3 .parent1 .text1 button:hover
+{
+    background-color: #fff;
+    color: #EC1075;
+}
+.universal .con3 .parent2 .text2
+{
+    /* border: 2px solid white; */
+    color: white;
+    width: 90%;
+    min-height: 200px;
+    padding-top: 50px;
+
+}
+.universal .con3 .parent2 .text2 h1
+{
+    font-family: 'Oswald', sans-serif;
+    font-size:27px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+.universal .con3 .parent2 .text2 .date
+{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.universal .con3 .parent2 .text2 p
+{
+    font-family: sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    line-height: 70%;
+    
+}
+.universal .con3 .parent2 .text2 button
+{
+    border: 2px solid #EC1075;
+    height: 40px;
+    width: 150px;
+    background-color: rgba(0,0,0,0.0);
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    float: right;
+    margin-left: 100px;
+    margin-top: 100px;
+    transition: 0.5s;
+    
+}
+.universal .con3 .parent2 .text2 button:hover
+{
+    background-color: #fff;
+    color: #EC1075;
+}
+
+
+.universal .con4
+{
+    /* border: 2px solid black; */
+    transform: skewY(3deg);
+    height: 370px;
+    position: relative;
+    width: 100%;
+    margin-top: -36px;
+    background-color: #fff;
+    display:flex;
+    flex-direction: column;
+}
+.universal .con4 .text
+{
+    /* border: 2px solid black; */
+    width: 50%;
+    position: relative;
+    transform: rotate(-3deg);
+    margin-top: 100px;
+    margin-left: 120px;
+    transform: skewY(-3deg);
+
+}
+.universal .con4 .text h1
+{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size:30px;
+    /* letter-spacing: -1px; */
+    opacity: 100%;
+    height: 30px;
+    font-weight: bolder;
+
+
+}
+.universal .con4 .text p
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.1px;
+    font-weight: 500;
+    line-height: 140%;
+    color: black;
+    font-weight: lighter;
+}
+.universal .con4 .text p a
+{
+    color: #EC1075;
+    text-decoration-line: none;
+    transition: 2s;   
+}
+.universal .con4 .text p a:hover
+{
+    text-decoration: underline;
+}
+.universal .con4 .text2
+{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 150px;
+    transform: rotate(-3deg);
+    margin-top: 20px;
+    padding-left:200px;
+    padding-right:150px;
+    transform: skewY(-3deg);
+
+}
+.universal .con4 .text2 .img1, .img2, .img3, .img4, .img5
+{
+    /* border: 2px solid black; */
+    width: 18%;
+    margin-right: 65px;
+}
+.universal .con4 .text2 img
+{
+    width: 100%;
+}
+.universal .con4 .text2 .img1
+{
+    width: 150px;
+    margin-top: 20px;
+}
+
+.universal .con4 .text2 .img2, .img3, .img5
+{
+    padding-top: 30px;
+}
+.universal .con4 .text2 .img4 img
+{
+    height: 80px;
+    width: 90px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+
+.universal .con5
+{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 135vh;
+    background-image: url(images/whiteBack-bkg.png);
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+}
+.universal .con5 .parent1
+{
+    /* border: 2px solid black; */
+    width: 50%;
+    position: absolute;
+    /* transform: rotate(45deg); */
+    height: 101vh;
+    right: 57%;
+   
+    
+}
+.universal .con5 .parent1 .circle
+{
+    border: 2px solid #CCCCCC;
+    height:200px;
+    width: 30%;
+    border-radius: 100%;
+    display: flex;
+    position: absolute;
+    left: 230px;
+    top: 220px;
+    background-color: #fff;
+    justify-content: center;
+    z-index: 10;  
+    transform: rotate(-45deg);
+
+    
+}
+.universal .con5 .parent1 .circle .inner
+{
+    border: 2px solid black;
+    background-color: #000;
+    position: relative;
+    width: 59%;
+    height: 120px;
+    margin: auto;
+    border-radius: 100%;
+    background-image: url(images/download.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x:1.5px;
+    transform: rotate(45deg);
+
+}
+
+
+.universal .con5 .parent2
+{
+    /* border: 2px solid black; */
+    width: 50%; 
+    display: flex;
+    flex-direction: row;
+    margin-left: 680px;
+    margin-top: -30px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    
+    
+}
+.universal .con5 .parent1 .child1
+{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 100vh;
+    /* left: -100px; */
+    display: flex;
+    flex-direction: column;  
+    transform: rotate(45deg);
+
+}
+.universal .con5 .parent1 .child1 .box1
+{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+   
+}
+.universal .con5 .parent1 .child1 .box2
+{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.universal .con5 .parent1 .child1 .box1 .b1
+{
+    border: 1px solid #CCCCCC;
+    width: 50%;
+    border-top-left-radius: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    padding-left: 90px;
+    padding-top: 80px;
+    opacity: 50%;
+    
+ 
+}
+.universal .con5 .parent1 .child1 .box1 .b1 img
+{
+    transform: rotate(45deg);
+}
+
+.universal .con5 .parent1 .child1 .box1 .b2
+{
+    border: 1px solid #CCCCCC;
+    width: 50%;
+    border-top-right-radius: 100%;
+    padding-top: 40px;
+    padding-left:20px;
+    opacity: 50%;
+
+}
+.universal .con5 .parent1 .child1 .box1 .b2 img
+{
+    transform: rotate(45deg);   
+}
+.universal .con5 .parent1 .child1 .box2 .b1
+{
+    border: 1px solid #CCCCCC;
+    width: 50%;
+    border-bottom-left-radius: 100%;
+    padding-top: 65px;
+    padding-left: 65px;
+    opacity: 50%;
+}
+.universal .con5 .parent1 .child1 .box2 .b1 img
+{
+    transform: rotate(-45deg);   
+
+}
+
+.universal .con5 .parent1 .child1 .box2 .b2
+{
+    border: 1px solid #CCCCCC;
+    width: 50%;
+    border-bottom-right-radius: 100%;
+    padding-top: 60px;
+    padding-left: 50px;
+    opacity: 50%;
+    
+}
+.universal .con5 .parent1 .child1 .box2 .b2 img
+{
+    transform: rotate(-45deg);   
+    
+}
+
+.universal .con5 .navigation
+{
+    /* border: 1px solid #EC1075; */
+    height: 80px;
+    width: 3.1%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 580px;
+    /* top: 100px; */
+    margin-top: 340px;
+    z-index: 20;
+    background-color: #fff;
+
+
+}
+.universal .con5 .navigation .arrow1
+{
+    border: 1px solid #EC1075;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+  
+    
+}
+.universal .con5 .navigation .arrow1:hover
+{
+    background-color: #EC1075;
+    border: 1px solid #fff;
+
+    
+}
+/* .universal .con5 .navigation .arrow2:hover
+{
+    background-color: #EC1075;
+} */
+.universal .con5 .navigation .arrow1 .fa-angle-up
+{
+    font-size: 30px;
+    color: black;
+    font-weight: lighter;
+    transition: 0.5s;
+    width: 100%;
+    height: inherit;
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+    transition: 300ms;
+    color: #EC1075;
+    animation-name: arrow;
+    animation-iteration-count: infinite;
+    animation-duration: 900ms;
+    animation-direction: normal;
+    
+}
+
+@keyframes  arrow{
+    form{
+        padding-top: 50px;
+    }
+    to{
+        padding-top: 0px;
+    }
+}
+.universal .con5 .navigation .arrow1 .fa-angle-up:hover
+{
+    color: #fff;
+    animation-name: finish;
+    padding-top: 20px;
+}
+
+.universal .con5 .parent2 .head1 h1
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    /* letter-spacing: -3px; */
+    word-spacing: 2px;
+    margin-bottom: 10px;
+}
+.universal .con5 .parent2 .head2 
+{
+    border: 5px solid #B4B4B4;
+    height: 45px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    z-index: 0;
+}
+.universal .con5 .parent2 .head2 .resp, .flag, .eight, .book
+{
+    width: 20%;
+    position: relative;
+    top: 5px;
+}
+
+.universal .con5 .parent2 .head2 p
+{
+    display: block;
+    border: 1px thin #EC1075;
+    text-align: center;
+    height: 100%;
+    border-top: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #B4B4B4;
+    border-left: none;
+    border-right: none;
+    /* border-bottom: 5px solid #EC1075; */
+    position: relative;
+    z-index: 10;
+    
+    
+}
+.universal .con5 .parent2 .head3
+{
+    /* border: 2px solid black; */
+    width: 100%;
+    margin-top: 40px;
+    min-height: 400px;
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    transition: ease-in-out;
+    transition: 200ms;
+    
+    
+}
+.universal .con5 .parent2 .head3 .text1
+{
+    /* border: 2px solid black; */
+    width: 100%;
+    position: relative;
+    
+    
+}
+.universal .con5 .parent2 .head3 .text2
+{
+    /* border: 2px solid black; */
+    width: 100%;
+    position: relative;
+    
+
+}
+.universal .con5 .parent2 .head3 .text3
+{
+    /* border: 2px solid black; */
+    width: 100%;
+    position: relative;
+
+}
+.universal .con5 .parent2 .head3 .text4
+{
+    /* border: 2px solid black; */
+    width: 100%;
+    position: relative;
+
+}
+.universal .con5 .parent2 .head3 h1
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    width: 1000px;
+}
+.universal .con5 .parent2 .head3  p
+{
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.1px;
+    font-weight: bold;
+    line-height: 140%;
+    color: black;
+    font-weight: lighter;
+    
+}
+.universal .con5 .parent2 .head3  ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+}
+.universal .con5 .parent2 .head3  ul li  p
+{
+    font-family: sans-serif;
+    font-size: 15.5px;
+}
+.universal .con5 .parent2 .head3  ul li  p .fa
+{
+    color: #EC1075;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 5px;
+
+}
+.universal .con5 .parent2 .head3  a
+{
+    text-decoration: none;
+    font-size: 19px;
+    font-family: sans-serif;
+    color: #EC1075;
+    text-decoration: underline;
+    
+}
+
+
+.universal .con6
+{
+    /* border: 2px solid yellow; */
+    width: 100%;
+    height: 150vh;
+    background-image: url(images/blackBack.png);
+    transform-origin: center;
+    transform: skewy(-4deg);
+    display: flex;
+    flex-direction: row;
+    margin-top: -30px;
+    justify-content: center;
+    justify-content: space-around;
+}
+.universal .con6 .box1
+{
+    /* border: 2px solid rgb(255, 0, 0); */
+    width: 40%;
+    height: 120vh;
+    transform: skewy(4deg);
+    /* background-color: #fff; */
+    position: relative;
+    top: -40px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.universal .con6 .box2
+{
+    /* border: 2px solid rgb(255, 0, 0); */
+    width: 40%;
+    transform: skewy(4deg);
+    /* background-color: #fff; */
+    margin-left: -60px;
+    height: 170vh;
+    position: relative;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.universal .con6 .box1 .text1
+{
+    /* border:2px solid yellow ; */
+    width: 100%;
+    height: 80vh;
+    background-image: url(images/community.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.universal .con6 .box1 .text2
+{
+    /* border: 2px solid yellow; */
+    height:40vh;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+.universal .con6 .box1 .text2 .inbox1
+{
+    /* border: 2px solid orange; */
+    width: 48.5%;
+    height:36.5vh ;
+    background-color: #EC1075;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: white;
+    transition: 0.5s;
+}
+.universal .con6 .box1 .text2 .inbox1:hover
+{
+    color: #EC1075;
+    background-color: #fff;
+}
+
+.universal .con6 .box1 .text2 .inbox2
+{
+    /* border: 2px solid orange; */
+    width: 48.5%;
+    height:36.5vh ;
+    background-color: #EC1075;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: white;
+    transition: 0.5s;
+
+}
+.universal .con6 .box1 .text2 .inbox2:hover
+{
+    color: #EC1075;
+    background-color: #fff;
+}
+
+.universal .con6 .box1 .text2 .inbox1 h1
+{
+    font-family: sans-serif;
+    font-size: 50px;
+    height: 80px;
+}
+.universal .con6 .box1 .text2 .inbox1 p
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 27px;
+    /* letter-spacing: -1px; */
+    font-weight: bolder;
+    /* word-spacing: -7px; */
+    
+}
+.universal .con6 .box1 .text2 .inbox2 .fa
+{
+    display: block;
+    font-size: 45px;
+    height: 118px;
+    
+}
+.universal .con6 .box1 .text2 .inbox2 p
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    /* letter-spacing: -1px; */
+    font-weight: bolder;
+    /* word-spacing: -7px; */
+
+    
+}
+
+.universal .con6 .box2 .text1
+{
+    /* border: 2px solid yellow; */
+    height:70.8vh ;
+}
+.universal .con6 .box2 .text1 h1
+{
+    /* border: 2px solid red; */
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    /* word-spacing: -10px; */
+    height: 130px;
+}
+.universal .con6 .box2 .text1 p
+{
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+}
+.universal .con6 .box2 .text1 a
+{
+    border: 2px solid #EC1075;
+    display: flex;
+    height: 45px;
+    width: 250px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.5s;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    /* letter-spacing: -1px; */
+    background-color: #EC1075;
+}
+.universal .con6 .box2 .text1 a:hover
+{
+    border: 2px solid #EC1075;
+    background-color: #fff;
+    color: #EC1075;
+
+}
+.universal .con6 .box2 .text2
+{
+    /* border: 2px solid blue; */
+    width: 75%;
+    height: 80vh;
+    margin-top: 27px;
+}
+.universal .con6 .box2 .text2 .slideImg
+{
+    animation-name: imgChange;
+    animation-duration: 0.4s;
+    opacity: 100%;
+    animation-direction: normal;
+}
+
+@keyframes imgChange {
+    from{
+        opacity: 100%;
+    }
+    to{
+        opacity: 0%;
+    }
+}
+.universal .con6 .box2 .text2 p
+{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    border: 2px solid white;
+    width: 240px;
+    height: 50px;
+    transition: ease-out;
+    transition: 0.5s;
+    background-color: #fff;
+    top: 800px;
+    left: 250px;
+    font-family: sans-serif;
+    font-size: 19px;
+
+}
+.universal .con6 .box2 .text2 .loader
+{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    border: 2px solid #EC1075;
+    width: 0px;
+    height: 5px;
+    transition: ease-out;
+    transition: 0.5s;
+    background-color: #EC1075;
+    top: 490px;
+    left: 40px;
+    font-family: sans-serif;
+    font-size: 23px;
+  
+}
+.universal .con6 .box2 .text2 p small
+{
+    color: #EC1075;
+    font-size:15px ;
+}
+
+
+.universal .con7
+{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 120vh;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    
+}
+.universal .con7 .box1
+{
+    /* border: 2px solid black;  */
+    width: 80%;
+    height: 55vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+    
+}
+.universal .con7 .box2
+{
+    /* border: 2px solid black; */
+    width: 80%;
+    height: 70vh;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.universal .con7 .box1 .text1
+{
+    /* border: 2px solid black; */
+    width: 46%;
+}
+.universal .con7 .box1 .text2
+{
+    /* border: 2px solid black; */
+    width: 46%;
+    padding-top: 66px;
+   
+}
+.universal .con7 .box1 .text1 h1
+{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    /* letter-spacing: -2px; */
+    height: 50px;
+}
+.universal .con7 .box1 .text1 .textbox1
+{
+    border: 1px solid #B4B4B4;
+    width: 100%;
+    height: 210px;
+    display: flex;
+    flex-direction: row;
+    transition: 0.5s;
+}
+.universal .con7 .box1 .text1 .textbox1:hover
+{
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.2);
+    
+}
+
+.universal .con7 .box1 .text1 .textbox1 .img
+{
+    /* border: 2px solid black; */
+    width: 40%;
+    height:210px;
+    background-image: url(images/featured-ebook.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -90px;
+    
+}
+.universal .con7 .box1 .text1 .textbox1 .txt
+{
+    /* border: 2px solid black; */
+    width: 60%;
+    height: 210px;
+    background-color: #EFEEED;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.universal .con7 .box1 .text1 .textbox1 .txt a
+{
+    /* border: 2px solid black; */
+    display: block;
+    position: relative;
+    width: 490px;
+    height: 210px;
+    left: -225px;
+    top: -175px;
+    text-align: center;
+    padding-left: 50px;
+    padding-top: 160px;
+    text-decoration: underline;
+    color: #EC1075;
+    font-family: 'Oswald', sans-serif;
+    font-size: 19px;
+    font-weight: lighter;
+    opacity: 0%;
+
+}
+.universal .con7 .box1 .text1 .textbox1 .txt a:hover
+{
+    opacity: 100%;
+}
+
+.universal .con7 .box1 .text1 .textbox1 .txt p
+{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    /* letter-spacing: -1px; */
+}
+.universal .con7 .box1 .text1 .textbox1 small
+{
+    position: absolute;
+    color: #646363;
+    font-family: monospace;
+    letter-spacing: 7px;
+    transform: rotate(90deg);
+    left: 520px;
+    margin-top: 103px;
+    font-size: 12px;
+}
+
+
+.universal .con7 .box1 .text2 .textbox2
+{
+    border: 1px solid #B4B4B4;
+    width: 100%;
+    height: 210px;
+    display: flex;
+    flex-direction: row;
+    transition: 0.5s;
+}
+.universal .con7 .box1 .text2 .textbox2:hover
+{
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.2);
+    
+}
+
+.universal .con7 .box1 .text2 .textbox2 .img
+{
+    /* border: 2px solid black; */
+    width: 40%;
+    height:210px;
+    background-image: url(images/HON-3439_Unlocking_Promo\ Spot.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+}
+.universal .con7 .box1 .text2 .textbox2 .txt
+{
+    /* border: 2px solid black; */
+    width: 60%;
+    height: 210px;
+    background-color: #EFEEED;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.universal .con7 .box1 .text2 .textbox2 .txt a
+{
+    /* border: 2px solid black; */
+    display: block;
+    position: relative;
+    width: 490px;
+    height: 210px;
+    left: -225px;
+    top: -175px;
+    text-align: center;
+    padding-left: 50px;
+    padding-top: 170px;
+    text-decoration: underline;
+    color: #EC1075;
+    font-family: 'Oswald', sans-serif;
+    font-size: 19px;
+    font-weight: lighter;
+    opacity: 0%;
+
+}
+.universal .con7 .box1 .text2 .textbox2 .txt a:hover
+{
+    opacity: 100%;
+}
+
+.universal .con7 .box1 .text2 .textbox2 .txt p
+{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    /* letter-spacing: -1px; */
+}
+.universal .con7 .box1 .text2 .textbox2 small
+{
+    position: absolute;
+    color: #646363;
+    font-family: monospace;
+    letter-spacing: 7px;
+    transform: rotate(90deg);
+    left: 1112px;
+    margin-top: 103px;
+    font-size: 12px;
+}
+
+.universal .con7 .box2 .text1
+{
+    /* border: 2px solid black; */
+    width:30% ;
+}
+.universal .con7 .box2 .text1 h1
+{
+    /* border: 2px solid black; */
+    height: 70px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    /* letter-spacing: -2px; */
+}
+.universal .con7 .box2 .text1 img
+{
+    width: 90%;
+}
+.universal .con7 .box2 .text2
+{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.universal .con7 .box2 .text2 p
+{
+    font-size: 29px;
+    font-family:'Raleway', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 150%;
+}
+.universal .con7 .box2 .text2 .profile
+{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 70px;
+    
+}
+.universal .con7 .box2 .text2 .profile .circle
+{
+    display: inline-block;
+    /* border: 2px solid black; */
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-image: url(images/priceline-southworth.jpg);
+    background-size: cover;
+}
+.universal .con7 .box2 .text2 .profile p
+{
+    display: inline-block;
+   position: relative;
+   top: -30px;
+   margin-left: 10px;
+   font-size: 17px;
+   color: black;
+   font-weight: bolder;
+   
+}
+.universal .con7 .box2 .text2 .profile a
+{
+    display: block;
+    text-decoration: none;    
+    color: #EC1075;
+    font-size: 18px;
+    margin-left: 85px;
+    font-family: 'Encode Sans SC', sans-serif;
+    
+
+    
+}
+.universal .con7 .box2 .text2 .profile a:hover
+{
+    text-decoration: underline;
+}
+
+
+.universal footer .con8
+{
+    /* border: 2px solid black; */
+    min-height:50vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+.universal footer .con8 .box1
+{
+    /* border: 2px solid black; */
+    width: 75%;
+    display: flex;
+    align-self:flex-end;
+    height: 50vh;
+    background-color: #EC1075;
+    padding-top: 40px;
+    padding-left: 60px;
+    flex-direction: column;
+    position: relative;
+    bottom: -60px;
+    z-index: 20;
+
+}
+.universal footer .con8 .box1 h1
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 55px;
+    color: white;
+    font-weight: 400;
+    height: 75px;
+}
+.universal footer .con8 .box1 p
+{
+    font-family:  sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    line-height: 140%;
+
+
+}
+.universal footer .con8 .box1 a
+{
+    border: 2px solid #fff;
+    display: flex;
+    height: 45px;
+    width: 150px;
+    color: #EC1075;
+    font-family:'Oswald', sans-serif ;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.5s;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.universal footer .con8 .box1 a:hover
+{
+    background-color: #EC1075;
+    color: white;
+
+}
+
+.universal footer .con8 .box2
+{
+    border: 2px solid black;
+    height: 85vh;
+    background-color: #000;
+    position: relative;
+    width: 100%;
+    left: -30px;
+    
+}
+.universal footer .con8 .box2 .text1
+{
+    /* border: 2px solid yellow; */
+    margin-top: 150px;
+    height: 200px;
+    padding-left: 160px;
+    padding-right: 140px;
+
+  
+
+}
+.universal footer .con8 .box2 .text1 table
+{
+    color: white;
+    width: 95%;
+    
+}
+.universal footer .con8 .box2 .text1 table td 
+{
+    text-align:left ;
+
+  
+}
+.universal footer .con8 .box2 .text1 table td  p
+{
+    font-family:  sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    transition: 0.5s;
+    line-height: 200%;
+    display: block;
+    /* border: 2px solid yellow; */
+    width: fit-content;
+
+}
+
+.universal footer .con8 .box2 .text1 table th
+{
+    
+    text-align: left;
+    width: 100px;
+    position: relative;
+    top: 5px;
+
+}
+.universal footer .con8 .box2 .text1 table th p
+{
+    padding: 0px;
+    font-family:  sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    transition: 0.5s;
+    display: block;
+    /* border: 2px solid yellow; */
+    width: fit-content;
+   
+
+}
+
+.universal footer .con8 .box2 .text1 table th p:hover
+{
+    color: #EC1075;
+}
+.universal footer .con8 .box2 .text1 table td p:hover
+{
+    color: #EC1075;
+}
+.universal footer .con8 .box2 .text1 table th img
+{
+    width: 45%;
+
+   
+}
+
+.universal footer .con8 .box2 .text2
+{
+    /* border: 2px solid white; */
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 480px;
+}
+.universal footer .con8 .box2 .text2 i
+{
+    display: block;
+    /* border: 2px solid white; */
+    color: white;
+    width: 3.5%;
+    text-align: center;
+    font-size: 22px;
+    transition: 0.5s;
+}
+.universal footer .con8 .box2 .text2 i:hover
+{
+    color: #EC1075;
+}
+.universal footer .con8 .box2 .text3
+{
+    /* border: 2px solid white; */
+    width: 64.4%;
+    margin-top: 30px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+.universal footer .con8 .box2 .text3 p
+{
+    display: block;
+    color: #4E4E4E;
+    align-self: center;
+    font-family: sans-serif;
+    font-size: 12px;    
+    margin-right: 155px;
+}
+.universal footer .con8 .box2 .text3 ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+
+}
+.universal footer .con8 .box2 .text3 ul li
+{
+    margin-left: 20px;
+}
+.universal footer .con8 .box2 .text3 ul li a
+{
+    transition: 0.5s;
+    color: #4E4E4E;
+    font-family: sans-serif;
+    font-size: 12px;    
+
+
+}
+.universal footer .con8 .box2 .text3 ul li a:hover
+{
+    text-decoration: none;
+    color: #EC1075;
+}
